@@ -3,7 +3,6 @@ from discord.ext import commands
 from music import Player
 
 intents = discord.Intents().all()
-# intents = discord.intents.default()
 intents.members = True
 bot = commands.Bot(command_prefix='--', intents=intents)
 
